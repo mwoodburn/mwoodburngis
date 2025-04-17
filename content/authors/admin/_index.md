@@ -52,8 +52,9 @@ education:
       Minors in:
       - Urban planning
       - English
+---
 
 ## About Me
 
-MGIST student at NC State University.
----
+MGIST student at NC State University
+
