@@ -32,76 +32,16 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'About Me'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        Welcome to my portfolio. This site details my work and experience from the past two years while completing my MGIST. Take a look through my portfolio to check out some of the projects I've completed in the program as well as work completed during my internship and capstone experience.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I've come a long way from my first map (a section of which is pictured above). As a high school student, I thought I was going to pursue art as a college major and figure out the whole job thing from there. For a project in 11th grade, I quilted and then hand-embroidered a topographic map of the section of the Appalachian Mountains surrounding my grandparents' house in Sylva, NC. I already had a fascination with maps, but that project sparked the idea in my mind that I could combine my artistic and aesthetic talents with my growing interest in geography and data science. After entering UNC Chapel Hill as a studio art major, I quickly changed my program to major in geography, and the rest is history.
         
-        Please reach out to collaborate 😃
+        I continue to hold value for cartographic endeavors, and I especially enjoy work where I can combine many of my skills and passions: art, data analysis, and coding. I hope you will appreciate my aesthetic sense as you explore my work in this portfolio. Through my time in the program, I have built upon prior education in Geography and Visual Arts from my Undergraduate program, adding a deeper knowledge of GIS concepts and proficiency with ArcGIS programs. For more detailed information about my experience and learning in the program, you can read through my portfolio.
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
